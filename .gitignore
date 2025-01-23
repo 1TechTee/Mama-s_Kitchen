@@ -1,0 +1,9 @@
+# Ignore system files
+.vscode/
+.DS_Store
+Thumbs.db
+ntuser.dat*
+NTUSER.DAT*
+Application Data/
+Cookies/
+Local Settings/

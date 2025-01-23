@@ -1,0 +1,115 @@
+.letter-input{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex: 0.5 ;
+}
+.letter-input div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 219, 185);
+}
+.letter-input input{
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 219, 185);
+}
+.letter-input .red_btn{
+    margin: 0;
+    font-size: 18px;
+    box-shadow: none;
+    border-radius: 0 10px 10px 0;
+}
+.letter-head h2{
+    font-size: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 776px) {
+    .main-slide {
+        padding: 50px;
+    }
+
+    .nav,
+    .account {
+        display: none;
+    }
+
+    .navI {
+        box-shadow: 0 10px 15px #DA0116;
+    }
+
+    .search {
+        width: 60vw;
+    }
+
+    .bars {
+        display: block;
+        cursor: pointer;
+    }
+
+    .headerbar {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        bottom: 0;
+        right: 0%;
+        /* background-color: #00A859; */
+    }
+
+    .headerbar .account,
+    .headerbar .nav {
+        display: block;
+        font-size: 18px;
+    }
+
+    .bar,
+    .fa-x {
+        display: flex;
+        gap: 10px;
+        top: 38px;
+        bottom: 22px;
+        right: 7vw;
+        position: absolute;
+        font-size: 18px;
+    }
+
+    .headerbar .nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .headerbar .nav li {
+        width: 96vw;
+        margin: 10px 0;
+        padding: 15px 30px;
+        box-shadow: 0 2px rgb(248, 232, 217);
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .headerbar .account {
+        line-height: 40px;
+        margin-top: 60px;
+        background-color: rgb(253, 123, 124);
+        padding: 15px;
+    }
+
+    .headerbar .account ul {
+        justify-content: space-between;
+    }
+
+    .General ul a:hover {
+        color: #00A859;
+    }
+}
